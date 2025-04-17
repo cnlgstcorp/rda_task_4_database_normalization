@@ -5,7 +5,7 @@ USE ShopDB;
 
 -- 1. Таблиця країн
 CREATE TABLE Countries (
-    ID INT PRIMARY KEY,
+    ID INT AUTO_INCREMENT PRIMARY KEY,
     Name VARCHAR(50)
 );
 
